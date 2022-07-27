@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  gap: 0px;
+  column-gap: 0px;
+  width: 960px;
+  height: 960px;
+}
+
+.item {
+  background-color: black;
+}
+
+.item:hover {
+  background-color: white;
+}
