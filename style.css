@@ -9,7 +9,3 @@
 .item {
   background-color: black;
 }
-
-.item:hover {
-  background-color: white;
-}

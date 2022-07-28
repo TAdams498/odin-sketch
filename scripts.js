@@ -15,6 +15,9 @@ for (let i = 0; i < 256; i++) {
   gridItems[i].classList.add("item");
   gridItems[i].style.height = `60px`;
   gridItems[i].style.width = `60px`;
+  gridItems[i].addEventListener("mouseover", function(e) {
+    e.target.style.backgroundColor = "white";
+  });
   gridContainer.appendChild(gridItems[i]);
 }
 
@@ -57,7 +60,9 @@ function setGridSize(size) {
     gridItems[i].classList.add("item");
     gridItems[i].style.height = `${boxSize}px`;
     gridItems[i].style.width = `${boxSize}px`;
-
+    gridItems[i].addEventListener("mouseover", function(e) {
+      e.target.style.backgroundColor = "white";
+    });
     gridContainer.appendChild(gridItems[i]);
   }
 
